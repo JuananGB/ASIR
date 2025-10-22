@@ -1,0 +1,45 @@
+/* ¿CÓMO FUNCIONA CSS?
+    Especificidad -> Establece cómo de espécifico es un selector para saber que estilo aplicar.
+    El cálculo se realiza con la siguiente fórmula:
+       Etiqutas y pseudoelementos 001
+       Clases atributos y pseudoclases 010
+       IDs 100
+       Estilos en línea 1000
+       !important -> Anula cualquier otra regla de estilo. // NO USAR
+    Cascada -> Funciona simepre que la especificidad sobre el elemento sea la misma
+    Herencia -> Es la capacidad que tienen algunos elementos de heredar algunas propiedades
+    de sus elementos contenedores(padres,abuelos,etc..).
+*/
+
+/*
+h1#title.title {
+    background-color: tomato;
+}
+*/
+
+body{
+    background-color: #333;
+}
+
+.title{
+    color: cyan;
+    font-size: 10px; /* Tamaño de fuente */
+}
+
+.text{
+    color: greenyellow;
+}
+
+.link{
+    color: inherit; /* Hereda el color del elemento padre */
+}
+
+
+.list{
+    color: indianred;
+}
+
+.item3{
+    color:initial; /* Valor inicial del navegador */
+}
+

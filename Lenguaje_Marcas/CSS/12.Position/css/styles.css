@@ -1,0 +1,106 @@
+/*
+
+La propiedad position nos permite posicionar los elementos. Hay algunos
+conceptso que debéis conocer para entender position.
+
+Flujo de renderizado  -> por norma general los elementos se dibujan a
+derecha y de arriba a abajo. El punto 0,0 de los elementos,por norma 
+general es la esquina superior izquierda.
+
+Espacio reservado -> Es el espacio que tiene un elemento asignado 
+en el navegador.
+
+Elemento posicionado -> Esto significa que el elemento tiene la propiedad
+position con un valor distinto de "static" , que es el valor que tiene
+la propiedad por defecto.
+
+Stackin context -> Contexto de apilamiento. Es el orden en el que se 
+aplicarán las cajas que se superponen, dentro del mismo contenedor
+
+Al posicionarse un elemento se habilitan 5 propiedades que podemos
+utilizar para mover los elementos en los 3 ejes.
+
+    top ->  Es el elemento que se moverá desde la parte superior 
+    de la distancia que le hayamos indicado
+
+    right ->  Es el elemento que se moverá desde la parte derecha 
+    la distancia que le hayamos indicado
+
+    bottom  ->  Es el elemento que se moverá desde la parte inferior 
+    de la distancia que le hayamos indicado
+
+    left ->  Es el elemento que se moverá desde la izquierda 
+    de la distancia que le hayamos indicado
+
+    z-index -> Nos permite mover el elemento en el contexto de 
+    apilamiento (eje z).
+
+    NOTA: Si a un elemento le declaramos la propiedad top y/o left, las 
+    propiedades bottom y(o right no funciona
+
+Los posibles valores que le podemos dar a psotion son:
+
+Static -> Es el valor que tiene por defecto un elemento, con este valor
+el elemento NO ESTA POSCIONADO u por lo cual no pdremos moverlo
+
+Relative -> El elemento mantendrá su posición y medidas en el flujo de
+renderizado y mantendrá su espacio reservado. Si lo movemos lo hará 
+usando su posicion en el html como punto de referencia.
+
+Absolute -> El elemento perderá sus medidas y su espacio reservado. 
+Si lo movemos usará el elemento padre posicionado como referencia.
+Si no tiene ninguno usará el elemento html de referencia.
+
+Fixed -> El elemento perderá sus medidas y su espacio reservado. Si lo
+movemos usará el elemento html de referencia, y además se quedará fija
+posición aunque hagamos scroll.
+
+Sticky -> Es una mezcla de relative y fixed.
+
+* Los valores hacen el efecto contrario
+*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+/*
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.box-1{
+    background-color: lightcoral;
+    position: absolute;
+}
+
+.box-2{
+    background-color: lightgreen;
+}
+
+
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    position: absolute;
+    text-align: center;
+}
+
+.box-3{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+*/

@@ -1,0 +1,16 @@
+/*
+* Selector: El elemento al que se le aplicarán los estilos.
+* Propiedad: Lo que vamos a cambiar.
+* Valor: El nuevo valor que va a tener esa propiedad.
+* Propiedad: Valor; -> Se denomina declaración.
+* Al conjunto de selector + declaracion(es) se le denomina regla-
+*/
+
+
+/* Ejemplo de regla CSS */
+
+h1 {
+    color: blue; /* Propiedad: color, Valor: blue */
+    font-size: 24px; /* Propiedad: font-size, Valor: 24px */
+    text-align: center; /* Propiedad: text-align, Valor: center */
+}

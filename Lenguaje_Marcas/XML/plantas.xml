@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plantas>
+    <planta>
+        <nombre> Rosa </nombre>
+        <familia>Rosaceae</familia>
+    </planta>
+    <planta>
+        <nombre> Tulipán </nombre>
+        <familia>Liliaceae</familia>
+    </planta>
+    <planta>
+        <nombre> Girasol </nombre>
+        <familia>Asteraceae</familia>
+    </planta>
+    <planta>
+        <nombre>Orquídea</nombre>
+        <familia>Orchidaceae</familia>
+    </planta>
+</plantas>

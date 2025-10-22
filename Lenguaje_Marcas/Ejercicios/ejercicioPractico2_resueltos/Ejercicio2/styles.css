@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkcyan;
+    margin: 0;
+}
+
+.n_alumno{
+    color: darkblue;
+}
+
+.separador{
+    color: white;
+}
+
+.n_registros{
+    text-align: center;
+}
+
+.tabla_alumnos{
+    margin-left: auto;
+    margin-right: auto;
+}

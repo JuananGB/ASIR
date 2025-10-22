@@ -1,0 +1,78 @@
+/* SELECTORES DE CSS 3 */
+
+/*
+
+ Selectores Simples
+    Selectores elementales
+        Selector universal -> *
+        Selectores de tipo -> h1, p, etc.
+    Selectores de atributo
+      id ->  id del elemento
+      clase -> class del elemento
+      otros atributos
+           [atributo] // [href], [src], [alt], [title], etc.
+           [atributo="valor"] // [type="text"], [rel="stylesheet"], etc.
+           [atributo^="valor_inicial"] // comienza con
+           [atributo$="valor_final"] // termina con
+           [atributo*="valor_incluido"] // contiene
+ Selectores Compuestos
+    Selectores Agrupados // .text_1 , .text_2
+    Selectores Combinados
+          Selector descendente -> espacio  -> div p
+          Selector hijo -> >  -> div > p
+          Selector hermano-> +  -> div + p
+          Selector general -> ~  -> div ~ p
+    Pseudo-clases - Pseudo-elementos
+*/
+
+/*
+*{
+    background-color: lightcoral;
+}
+
+h1{
+    background-color: lightcyan;
+}
+
+#title{
+    background-color: limegreen;
+}
+
+
+.title{
+    background-color: lightseagreen;
+}
+
+
+
+[href]{
+    background-color: lightblue;
+}
+
+[type="square"]{
+    background-color: lightgreen;
+
+
+}
+
+[href*="color"]{
+    background-color: lightpink;
+}
+
+.text_1 , .text_2 {
+    background-color: lightgreen;
+}
+
+div .example {
+    background-color: lightyellow;
+}
+
+*/
+
+div > .example_d {
+    background-color: lightgray;
+}
+
+div > .example_h {
+    color: red;
+}

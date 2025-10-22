@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bancos xmlns:Obj="http://bancos.com/Objeto" xmlns:Empr="http://bancos.com/Empresa">
+    <Obj:banco>
+        <Obj:color> marrón </Obj:color>
+        <Obj:asientos>3</Obj:asientos>
+    </Obj:banco>
+    
+    <Empr:banco>
+        <Empr:nombre>Banco X</Empr:nombre>
+        <Empr:direccion>calle Y</Empr:direccion>
+        <Empr:presidente>Sr. Juan</Empr:presidente>
+        <Empr:clientes>154000000</Empr:clientes> 
+    </Empr:banco>
+</bancos>

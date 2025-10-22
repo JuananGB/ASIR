@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animales>
+    <Mamiferos>
+        <Animal>
+            <Nombre>Leon</Nombre>
+            <Habitat>Savanna</Habitat>
+            <Alimentacion>Carnivoro</Alimentacion>
+        </Animal>
+        <Animal>
+            <Nombre>Elefante</Nombre>
+            <Habitat>Savanna</Habitat>
+            <Alimentacion>Herbivoro</Alimentacion>
+        </Animal>
+        <Animal>
+            <Nombre>Perro</Nombre>
+            <Habitat>Domestico</Habitat>
+            <Alimentacion>Omnivoro</Alimentacion>
+        </Animal>
+    </Mamiferos>
+</Animales>

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkcyan;
+    margin: 0;
+}
+
+.nombre_usuario{
+    color: darkblue;
+}
+
+.separador{
+    color: white;
+}
+
+.txt_incidencias{
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+}
+
+

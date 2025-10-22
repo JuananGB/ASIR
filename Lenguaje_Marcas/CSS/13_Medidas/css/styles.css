@@ -1,0 +1,58 @@
+/*
+
+    Medidas relativas
+    Las medidas relativas SIEMPRE dependen de un contexto son las que 
+    se recomienda utilizar en la mayoría de ocasiones porque nos van
+    a permitit que todos los elementos escalen proporcinalmente
+
+    Las más usadas son (em , rem , % , vm , vh, vmin , vmax )
+
+        ex -> ALtura x de la fuente del elemento
+
+        ch -> La medida del ancho del glifo "0" de la letra del elemento
+
+        lh -> altura de la linea del elemento
+
+    
+    rem -> Corresponde a la medida de la "m" de la raiz del documento (html)
+
+        ejemplo: 16 px = 1rem
+
+    
+    em -> Corresponde a la medida "m" ddel contexto donde nos encontremos
+
+    auto -> cuando usamos auto le pedimos al navegador que calcule 
+    el ancho en función del espacio disponible.
+
+    // * NO intentar usar height  (alto)
+*/
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    color: lightcoral;
+    background-color: #333;
+    margin: 0;
+}
+
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    
+}
+
+.box-children{
+    width: auto;
+    height: 25%;
+    background-color: lightseagreen;
+    
+}
+
+
+

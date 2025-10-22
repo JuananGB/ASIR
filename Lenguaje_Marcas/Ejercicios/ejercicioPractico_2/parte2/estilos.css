@@ -1,0 +1,13 @@
+.tabla{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lime;
+}
+p{
+    color: green;
+}
+h1{
+    color: purple;
+    text-decoration: underline; /* Texto subrayado */
+    text-transform: capitalize; /* Primera letra en mayúscula */
+}
