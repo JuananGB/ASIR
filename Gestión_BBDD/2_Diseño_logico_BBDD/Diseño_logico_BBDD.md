@@ -1,0 +1,1 @@
+![captura_Diseño_BBDD](Capturas/Diseño_logico_BBDD.png)

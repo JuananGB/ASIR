@@ -1,0 +1,25 @@
+# <span style="color:coral">Índice General
+
+## <span style="color:lightcoral">1. Sistemas de almacenamiento de la información </span>
+### <span style="color:cyan">1.1. Ficheros </span>
+###  <span style="color:cyan">1.2. Bases de Datos
+###  <span style="color:cyan">1.3. Los Sistemas Gestores de Base de Datos (SGBD)
+### <span style="color:cyan">1.4. Prácticas Resueltas
+### <span style="color:cyan">1.5. Prácticas Propuestas
+### <span style="color:cyan">1.6. Resumen
+### <span style="color:cyan">1.7. Test de repaso
+### <span style="color:cyan">1.8. Comprueba tu aprendizaje
+## <span style="color:lightcoral">2. Diseño lógico de bases de datos
+### <span style="color:cyan">2.1. Representación del problema
+### <span style="color:cyan">2.2. El modelo de datos
+### <span style="color:cyan">2.3. Diagramas E/R
+### <span style="color:cyan">2.4. El modelo E/R ampliado
+### <span style="color:cyan">2.5. Construcción de un diagrama E/R
+### <span style="color:cyan">2.6. El modelo relacional
+### <span style="color:cyan">2.7. Transformación de un diagrama E/R al modelo relacional
+### <span style="color:cyan">2.8. Normalización
+### <span style="color:cyan">2.9. Prácticas Resueltas
+### <span style="color:cyan">2.10. Prácticas Propuestas
+### <span style="color:cyan">2.11. Resumen
+### <span style="color:cyan">2.12. Test de repaso
+### <span style="color:cyan">2.13. Comprueba tu aprendizaje
